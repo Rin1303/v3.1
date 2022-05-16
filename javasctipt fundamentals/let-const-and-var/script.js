@@ -1,5 +1,5 @@
 language = 'danish';
- const country = 'Denmark';
+ var country = 'Denmark';
  const continent = 'Europe';
- const isIsland = false;
+ let isIsland = false;
  isIsland = true;
