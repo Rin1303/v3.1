@@ -1,0 +1,79 @@
+.pg2 {
+    background-color: #ecfdf5;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: none;
+    overflow-y: auto;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}   
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(75, 75, 75);
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-form {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    font-family: inherit;
+    border-radius: 5px;
+    border-color: lightgray;
+    border-width: .1px;
+}
+
+.save-btn {
+    background-color: #065f46;
+    font-family: inherit;
+    height: 40px;
+    width: 60px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0 0 0 auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.radio:checked + label {
+    background-color: yellowgreen;
+    color: white;
+}
+
+label {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: black;
+}
+
+.radio {
+    display: none;
+}
